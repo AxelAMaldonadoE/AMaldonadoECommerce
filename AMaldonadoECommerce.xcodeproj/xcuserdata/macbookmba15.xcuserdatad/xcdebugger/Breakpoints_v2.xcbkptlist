@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B7F47E12-E793-4A36-A136-DDEB4F40B4AC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3D8EF06-EA30-4004-A369-FD51F4AE5B90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/UsuarioController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "btnAdd()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3D8EF06-EA30-4004-A369-FD51F4AE5B90 - c77af9d2d9a5ab2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.UsuarioController.btnObtenerDatos() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/UsuarioController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "3732">
+               </Location>
+               <Location
+                  uuid = "B3D8EF06-EA30-4004-A369-FD51F4AE5B90 - 4c3e51cc0756f262"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.UsuarioController.btnAgregar() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/UsuarioController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "3732">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C16AD4F-973D-4568-9ECB-14F49B4679B1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/UsuarioController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "btnUpdate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6AAB49C-BEAC-4853-B301-3884587ECA8F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/UsuarioController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "btnUpdate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4ADC04D1-867E-46B6-9D9D-BCD90C640CF2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Usuario.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "Update(usuario:DbManager:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4ADC04D1-867E-46B6-9D9D-BCD90C640CF2 - 664ba71112ab4bb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.Update(usuario: AMaldonadoECommerce.Usuario) -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "4ADC04D1-867E-46B6-9D9D-BCD90C640CF2 - 97b5c6b8558fcd29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.Update(usuario: AMaldonadoECommerce.Usuario, DbManager: AMaldonadoECommerce.DBManager) -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "4ADC04D1-867E-46B6-9D9D-BCD90C640CF2 - c6c516622e0c1ad2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.Update(usuario: AMaldonadoECommerce.Usuario, DbManager: AMaldonadoECommerce.DBManager) -&gt; AMaldonadoECommerce.Result"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A0E0623-87A5-4F11-AFC5-628452AFFD40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Usuario.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "GetAll(DbManager:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0A602E6-33DE-4E34-BD9D-A2E078FE130A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Usuario.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "GetAll(DbManager:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0A602E6-33DE-4E34-BD9D-A2E078FE130A - 4e27f9d5ccee16b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.GetAll(DbManager: AMaldonadoECommerce.DBManager) -&gt; AMaldonadoECommerce.Result"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+               <Location
+                  uuid = "B0A602E6-33DE-4E34-BD9D-A2E078FE130A - 4e27f9d5ccee16b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.GetAll(DbManager: AMaldonadoECommerce.DBManager) -&gt; AMaldonadoECommerce.Result"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "976">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1D25E44-3037-47C7-B866-7A725095ACD9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/UsuarioController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "btnGetAll()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5023206A-29D1-456D-9DE5-A274631AE2F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Usuario.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "GetAll(DbManager:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5023206A-29D1-456D-9DE5-A274631AE2F3 - 4e27f9d5ccee1402"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.GetAll(DbManager: AMaldonadoECommerce.DBManager) -&gt; AMaldonadoECommerce.Result"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "2488">
+               </Location>
+               <Location
+                  uuid = "5023206A-29D1-456D-9DE5-A274631AE2F3 - 4e27f9d5ccee1402"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.GetAll(DbManager: AMaldonadoECommerce.DBManager) -&gt; AMaldonadoECommerce.Result"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "2448">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "902D5A1D-F75D-4208-A89D-71DA4D929603"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Usuario.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "GetAll(DbManager:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "902D5A1D-F75D-4208-A89D-71DA4D929603 - 4e27f9d5ccee13bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.GetAll(DbManager: AMaldonadoECommerce.DBManager) -&gt; AMaldonadoECommerce.Result"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "2808">
+               </Location>
+               <Location
+                  uuid = "902D5A1D-F75D-4208-A89D-71DA4D929603 - 4e27f9d5ccee13bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerce.Usuario.GetAll(DbManager: AMaldonadoECommerce.DBManager) -&gt; AMaldonadoECommerce.Result"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Usuario.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "2788">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C8192C8-8CF1-4CB1-9FD9-0E8DBFA038B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Usuario.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "GetById(idUsuario:dbManager:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3ACF61C-9D07-43E7-8DF0-0F3BBE4E0F53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Usuario.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "GetById(idUsuario:dbManager:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC69AD1B-2C9A-4592-8D84-542B7E74ED2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Usuario.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "GetById(idUsuario:dbManager:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CBA845E-94AE-4D7A-B64B-23E75351A693"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/GetAllUsuariosController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8CBA845E-94AE-4D7A-B64B-23E75351A693 - 4dfeb8654d225caf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.viewDidLoad() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "8CBA845E-94AE-4D7A-B64B-23E75351A693 - 4dfeb8654d225397"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.viewDidLoad() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "8CBA845E-94AE-4D7A-B64B-23E75351A693 - 4dfeb8654d225d65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.viewDidLoad() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "840">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AE19305-3B4A-4B5F-997C-94E2B4AA8A08"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/GetAllUsuariosController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6AE19305-3B4A-4B5F-997C-94E2B4AA8A08 - 4dfeb8654d225d65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.viewDidLoad() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "6AE19305-3B4A-4B5F-997C-94E2B4AA8A08 - 4dfeb8654d225c6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.viewDidLoad() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "832">
+               </Location>
+               <Location
+                  uuid = "6AE19305-3B4A-4B5F-997C-94E2B4AA8A08 - 5758cca7059c897d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.numberOfSections(in: __C.UITableView) -&gt; Swift.Int"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30FF131C-FB45-41CC-8E5D-062230D9D1E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/GetAllUsuariosController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "GetAllUsuariosController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "30FF131C-FB45-41CC-8E5D-062230D9D1E9 - 7dcfbc0fa958f309"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "30FF131C-FB45-41CC-8E5D-062230D9D1E9 - 7dcfbc0fa958f201"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "30FF131C-FB45-41CC-8E5D-062230D9D1E9 - 7dcfbc0fa958f201"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1826F624-7DB2-42B3-9EE6-12D9E56FEFF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/GetAllUsuariosController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1826F624-7DB2-42B3-9EE6-12D9E56FEFF2 - 1b4ef9c3171128f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "1826F624-7DB2-42B3-9EE6-12D9E56FEFF2 - 1b4ef9c31711187"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "1826F624-7DB2-42B3-9EE6-12D9E56FEFF2 - 7dcfbc0fa958f309"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AADBBA6-2F2A-465B-B6C4-C1F9CE648ABD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/GetAllUsuariosController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C55C267-9FDE-4FD6-AA2B-3272FB69D1CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/GetAllUsuariosController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1C55C267-9FDE-4FD6-AA2B-3272FB69D1CC - 4dfeb8654d225332"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.viewDidLoad() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "1C55C267-9FDE-4FD6-AA2B-3272FB69D1CC - 4dfeb8654d225d65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerce.GetAllUsuariosController.viewDidLoad() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/GetAllUsuariosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "840">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

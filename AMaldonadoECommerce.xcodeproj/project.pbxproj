@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C864BC7B29DAE732087A2F7 /* Pods_AMaldonadoECommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594F967522DFE6335B40369 /* Pods_AMaldonadoECommerce.framework */; };
+		FA092F5529FC808B00F8E423 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA092F5429FC808B00F8E423 /* Usuario.swift */; };
+		FA1ADA502A0AF4BD0077B883 /* RolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ADA4F2A0AF4BD0077B883 /* RolController.swift */; };
+		FA1ADA522A0AF66F0077B883 /* GetAllRolesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ADA512A0AF66F0077B883 /* GetAllRolesController.swift */; };
+		FA1ADA542A0AFB6A0077B883 /* RolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ADA532A0AFB6A0077B883 /* RolViewModel.swift */; };
+		FA1ADA562A0AFBF40077B883 /* Rol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ADA552A0AFBF40077B883 /* Rol.swift */; };
+		FA1ADA5D2A0B0A5F0077B883 /* RolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ADA5B2A0B0A5F0077B883 /* RolCell.swift */; };
+		FA1ADA5E2A0B0A5F0077B883 /* RolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1ADA5C2A0B0A5F0077B883 /* RolCell.xib */; };
+		FA67BF6129FC57C3007F64DA /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67BF6029FC57C3007F64DA /* DBManager.swift */; };
+		FA71F4A02A03112A0029D67D /* GetAllUsuariosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71F49F2A03112A0029D67D /* GetAllUsuariosController.swift */; };
+		FA71F4A32A0311720029D67D /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71F4A12A0311720029D67D /* UsuarioCell.swift */; };
+		FA71F4A42A0311720029D67D /* UsuarioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA71F4A22A0311720029D67D /* UsuarioCell.xib */; };
+		FA79D67E2A01D18300CD2645 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79D67D2A01D18300CD2645 /* Result.swift */; };
+		FA9379A729FB2D2300B135FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9379A629FB2D2300B135FB /* AppDelegate.swift */; };
+		FA9379A929FB2D2300B135FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9379A829FB2D2300B135FB /* SceneDelegate.swift */; };
+		FA9379AB29FB2D2300B135FB /* UsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9379AA29FB2D2300B135FB /* UsuarioController.swift */; };
+		FA9379AE29FB2D2300B135FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9379AC29FB2D2300B135FB /* Main.storyboard */; };
+		FA9379B029FB2D2400B135FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9379AF29FB2D2400B135FB /* Assets.xcassets */; };
+		FA9379B329FB2D2400B135FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9379B129FB2D2400B135FB /* LaunchScreen.storyboard */; };
+		FA9BC2FD2A0445A5008A4B79 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BC2FC2A0445A5008A4B79 /* UsuarioViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		328A16C1D62642763DD0ABA6 /* Pods-AMaldonadoECommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMaldonadoECommerce.debug.xcconfig"; path = "Target Support Files/Pods-AMaldonadoECommerce/Pods-AMaldonadoECommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		432D98BE62759632D24CE027 /* Pods-AMaldonadoECommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMaldonadoECommerce.release.xcconfig"; path = "Target Support Files/Pods-AMaldonadoECommerce/Pods-AMaldonadoECommerce.release.xcconfig"; sourceTree = "<group>"; };
+		E594F967522DFE6335B40369 /* Pods_AMaldonadoECommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMaldonadoECommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA092F5429FC808B00F8E423 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		FA1ADA4F2A0AF4BD0077B883 /* RolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolController.swift; sourceTree = "<group>"; };
+		FA1ADA512A0AF66F0077B883 /* GetAllRolesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllRolesController.swift; sourceTree = "<group>"; };
+		FA1ADA532A0AFB6A0077B883 /* RolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolViewModel.swift; sourceTree = "<group>"; };
+		FA1ADA552A0AFBF40077B883 /* Rol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rol.swift; sourceTree = "<group>"; };
+		FA1ADA5B2A0B0A5F0077B883 /* RolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolCell.swift; sourceTree = "<group>"; };
+		FA1ADA5C2A0B0A5F0077B883 /* RolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RolCell.xib; sourceTree = "<group>"; };
+		FA67BF6029FC57C3007F64DA /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		FA71F49F2A03112A0029D67D /* GetAllUsuariosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuariosController.swift; sourceTree = "<group>"; };
+		FA71F4A12A0311720029D67D /* UsuarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCell.swift; sourceTree = "<group>"; };
+		FA71F4A22A0311720029D67D /* UsuarioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsuarioCell.xib; sourceTree = "<group>"; };
+		FA79D67D2A01D18300CD2645 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		FA9379A329FB2D2300B135FB /* AMaldonadoECommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMaldonadoECommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9379A629FB2D2300B135FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA9379A829FB2D2300B135FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA9379AA29FB2D2300B135FB /* UsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioController.swift; sourceTree = "<group>"; };
+		FA9379AD29FB2D2300B135FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA9379AF29FB2D2400B135FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA9379B229FB2D2400B135FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA9379B429FB2D2400B135FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9BC2FC2A0445A5008A4B79 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9379A029FB2D2300B135FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C864BC7B29DAE732087A2F7 /* Pods_AMaldonadoECommerce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE5955DAB0D95BBE9ECE7CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E594F967522DFE6335B40369 /* Pods_AMaldonadoECommerce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD23A0256F7B2D5ACAF32F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				328A16C1D62642763DD0ABA6 /* Pods-AMaldonadoECommerce.debug.xcconfig */,
+				432D98BE62759632D24CE027 /* Pods-AMaldonadoECommerce.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA1ADA472A0AF2920077B883 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				FA9379AA29FB2D2300B135FB /* UsuarioController.swift */,
+				FA71F49F2A03112A0029D67D /* GetAllUsuariosController.swift */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		FA1ADA482A0AF2AD0077B883 /* Rol */ = {
+			isa = PBXGroup;
+			children = (
+				FA1ADA4F2A0AF4BD0077B883 /* RolController.swift */,
+				FA1ADA512A0AF66F0077B883 /* GetAllRolesController.swift */,
+			);
+			path = Rol;
+			sourceTree = "<group>";
+		};
+		FA1ADA572A0B09D10077B883 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				FA71F4A12A0311720029D67D /* UsuarioCell.swift */,
+				FA71F4A22A0311720029D67D /* UsuarioCell.xib */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		FA1ADA582A0B09E40077B883 /* Rol */ = {
+			isa = PBXGroup;
+			children = (
+				FA1ADA5B2A0B0A5F0077B883 /* RolCell.swift */,
+				FA1ADA5C2A0B0A5F0077B883 /* RolCell.xib */,
+			);
+			path = Rol;
+			sourceTree = "<group>";
+		};
+		FA93799A29FB2D2300B135FB = {
+			isa = PBXGroup;
+			children = (
+				FA9379A529FB2D2300B135FB /* AMaldonadoECommerce */,
+				FA9379A429FB2D2300B135FB /* Products */,
+				8AD23A0256F7B2D5ACAF32F2 /* Pods */,
+				5BE5955DAB0D95BBE9ECE7CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9379A429FB2D2300B135FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9379A329FB2D2300B135FB /* AMaldonadoECommerce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9379A529FB2D2300B135FB /* AMaldonadoECommerce */ = {
+			isa = PBXGroup;
+			children = (
+				FA9BC2FB2A044572008A4B79 /* Util */,
+				FA9BC2F92A044518008A4B79 /* Controller */,
+				FA9BC2F82A04450F008A4B79 /* ViewModel */,
+				FA9BC2F72A044505008A4B79 /* View */,
+				FA9BC2F62A0444F4008A4B79 /* Model */,
+				FA9379A629FB2D2300B135FB /* AppDelegate.swift */,
+				FA9379A829FB2D2300B135FB /* SceneDelegate.swift */,
+				FA9379AF29FB2D2400B135FB /* Assets.xcassets */,
+				FA9379B429FB2D2400B135FB /* Info.plist */,
+			);
+			path = AMaldonadoECommerce;
+			sourceTree = "<group>";
+		};
+		FA9BC2F62A0444F4008A4B79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA79D67D2A01D18300CD2645 /* Result.swift */,
+				FA092F5429FC808B00F8E423 /* Usuario.swift */,
+				FA1ADA552A0AFBF40077B883 /* Rol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA9BC2F72A044505008A4B79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA9BC2FA2A04455C008A4B79 /* Cell */,
+				FA9379AC29FB2D2300B135FB /* Main.storyboard */,
+				FA9379B129FB2D2400B135FB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA9BC2F82A04450F008A4B79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA9BC2FC2A0445A5008A4B79 /* UsuarioViewModel.swift */,
+				FA1ADA532A0AFB6A0077B883 /* RolViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA9BC2F92A044518008A4B79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA1ADA482A0AF2AD0077B883 /* Rol */,
+				FA1ADA472A0AF2920077B883 /* Usuario */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA9BC2FA2A04455C008A4B79 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA1ADA582A0B09E40077B883 /* Rol */,
+				FA1ADA572A0B09D10077B883 /* Usuario */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FA9BC2FB2A044572008A4B79 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FA67BF6029FC57C3007F64DA /* DBManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9379A229FB2D2300B135FB /* AMaldonadoECommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9379B729FB2D2400B135FB /* Build configuration list for PBXNativeTarget "AMaldonadoECommerce" */;
+			buildPhases = (
+				10087DF2E917CF1B52720C9B /* [CP] Check Pods Manifest.lock */,
+				FA93799F29FB2D2300B135FB /* Sources */,
+				FA9379A029FB2D2300B135FB /* Frameworks */,
+				FA9379A129FB2D2300B135FB /* Resources */,
+				E0667326A044EBE645A02D4D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMaldonadoECommerce;
+			productName = AMaldonadoECommerce;
+			productReference = FA9379A329FB2D2300B135FB /* AMaldonadoECommerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA93799B29FB2D2300B135FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FA9379A229FB2D2300B135FB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = FA93799E29FB2D2300B135FB /* Build configuration list for PBXProject "AMaldonadoECommerce" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA93799A29FB2D2300B135FB;
+			productRefGroup = FA9379A429FB2D2300B135FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9379A229FB2D2300B135FB /* AMaldonadoECommerce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9379A129FB2D2300B135FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA71F4A42A0311720029D67D /* UsuarioCell.xib in Resources */,
+				FA9379B329FB2D2400B135FB /* LaunchScreen.storyboard in Resources */,
+				FA9379B029FB2D2400B135FB /* Assets.xcassets in Resources */,
+				FA1ADA5E2A0B0A5F0077B883 /* RolCell.xib in Resources */,
+				FA9379AE29FB2D2300B135FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10087DF2E917CF1B52720C9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMaldonadoECommerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0667326A044EBE645A02D4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMaldonadoECommerce/Pods-AMaldonadoECommerce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMaldonadoECommerce/Pods-AMaldonadoECommerce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AMaldonadoECommerce/Pods-AMaldonadoECommerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA93799F29FB2D2300B135FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79D67E2A01D18300CD2645 /* Result.swift in Sources */,
+				FA9379AB29FB2D2300B135FB /* UsuarioController.swift in Sources */,
+				FA1ADA542A0AFB6A0077B883 /* RolViewModel.swift in Sources */,
+				FA1ADA5D2A0B0A5F0077B883 /* RolCell.swift in Sources */,
+				FA9BC2FD2A0445A5008A4B79 /* UsuarioViewModel.swift in Sources */,
+				FA9379A729FB2D2300B135FB /* AppDelegate.swift in Sources */,
+				FA1ADA562A0AFBF40077B883 /* Rol.swift in Sources */,
+				FA9379A929FB2D2300B135FB /* SceneDelegate.swift in Sources */,
+				FA71F4A32A0311720029D67D /* UsuarioCell.swift in Sources */,
+				FA092F5529FC808B00F8E423 /* Usuario.swift in Sources */,
+				FA1ADA502A0AF4BD0077B883 /* RolController.swift in Sources */,
+				FA67BF6129FC57C3007F64DA /* DBManager.swift in Sources */,
+				FA1ADA522A0AF66F0077B883 /* GetAllRolesController.swift in Sources */,
+				FA71F4A02A03112A0029D67D /* GetAllUsuariosController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA9379AC29FB2D2300B135FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9379AD29FB2D2300B135FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9379B129FB2D2400B135FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9379B229FB2D2400B135FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9379B529FB2D2400B135FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA9379B629FB2D2400B135FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9379B829FB2D2400B135FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328A16C1D62642763DD0ABA6 /* Pods-AMaldonadoECommerce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AMaldonadoECommerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.AMaldonadoECommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA9379B929FB2D2400B135FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432D98BE62759632D24CE027 /* Pods-AMaldonadoECommerce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AMaldonadoECommerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.AMaldonadoECommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA93799E29FB2D2300B135FB /* Build configuration list for PBXProject "AMaldonadoECommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9379B529FB2D2400B135FB /* Debug */,
+				FA9379B629FB2D2400B135FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9379B729FB2D2400B135FB /* Build configuration list for PBXNativeTarget "AMaldonadoECommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9379B829FB2D2400B135FB /* Debug */,
+				FA9379B929FB2D2400B135FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA93799B29FB2D2300B135FB /* Project object */;
+}
