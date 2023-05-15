@@ -16,7 +16,11 @@ class RolController: UIViewController {
     var IdRol: Int = 0
     
     override func viewDidLoad() {
+
         super.viewDidLoad()
+        
+        txtNombre.delegate = self
+        self.dismissKeyboard()
 
         lblNombre.isHidden = true
         if IdRol != 0 {
@@ -89,16 +93,42 @@ class RolController: UIViewController {
             
         }
     }
-    
+}
 
-    /*
-    // MARK: - Navigation
+    // MARK: Funcion para hide keyboard
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension UIViewController {
+func dismissKeyboard() {
+       let tap: UITapGestureRecognizer = UITapGestureRecognizer( target:     self, action:    #selector(UIViewController.dismissKeyboardTouchOutside))
+       tap.cancelsTouchesInView = false
+       view.addGestureRecognizer(tap)
     }
-    */
+    
+    @objc private func dismissKeyboardTouchOutside() {
+       view.endEditing(true)
+    }
+}
 
+    //MARK: Extension delegate del UITextFieldDelegate
+
+extension RolController: UITextFieldDelegate {
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.becomeFirstResponder()
+        print("Se comenzo a usar el text field")
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        print("Se presiono el boton intro")
+        if let nextField = self.view.viewWithTag(textField.tag + 1) as? UITextField {
+         nextField.becomeFirstResponder()
+         } else {
+         textField.resignFirstResponder()
+         }
+         return false
+    }
+
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        print("Se dejo de usar el textField")
+    }
 }
