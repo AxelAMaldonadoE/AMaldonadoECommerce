@@ -12,4 +12,6 @@ target 'AMaldonadoECommerce' do
   #DropDown Pod
   pod 'DropDown'
 
+  #IQKeyboardManagerSwift
+  pod 'IQKeyboardManagerSwift'
 end

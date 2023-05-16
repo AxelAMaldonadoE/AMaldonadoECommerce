@@ -174,7 +174,7 @@
                             <constraint firstItem="J3m-I8-H7a" firstAttribute="leading" relation="lessThanOrEqual" secondItem="3mV-0H-5fL" secondAttribute="trailing" constant="134" id="PR4-Ep-RkB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3mV-0H-5fL" secondAttribute="trailing" priority="250" constant="16" id="RJj-jl-Z2f"/>
                             <constraint firstItem="3mV-0H-5fL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="dRi-mb-wRy"/>
-                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="3mV-0H-5fL" secondAttribute="bottom" constant="5" id="u0N-OE-Vav"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="3mV-0H-5fL" secondAttribute="bottom" constant="16" id="u0N-OE-Vav"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="J3m-I8-H7a" secondAttribute="bottom" id="xba-YK-KL1"/>
                         </constraints>
                     </view>
@@ -415,7 +415,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WMo-2z-kat" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="3Pc-Tj-Sbu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="846" y="664"/>
+            <point key="canvasLocation" x="845.60000000000002" y="663.54679802955673"/>
         </scene>
         <!--Usuarios-->
         <scene sceneID="gbE-NJ-h9D">
