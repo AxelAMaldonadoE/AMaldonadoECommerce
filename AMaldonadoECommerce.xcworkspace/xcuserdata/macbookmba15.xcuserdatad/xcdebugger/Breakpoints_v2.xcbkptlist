@@ -767,16 +767,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "103ACCAA-2460-42BB-A55D-CAA338F8C2CF"
+            uuid = "5586EAA1-F75C-4BA0-9FBE-EBEA409447B8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AMaldonadoECommerce/Controller/Producto/ProductoController.swift"
+            filePath = "AMaldonadoECommerce/Controller/Usuario/RegisterController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
-            landmarkName = "btnActions(_:)"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "Registrar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5586EAA1-F75C-4BA0-9FBE-EBEA409447B8 - 6bcda3ef653af106"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AMaldonadoECommerce.RegisterController.Registrar() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Controller/Usuario/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "5586EAA1-F75C-4BA0-9FBE-EBEA409447B8 - 6bcda3ef653af106"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AMaldonadoECommerce.RegisterController.Registrar() -&gt; ()"
+                  moduleName = "AMaldonadoECommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/Controller/Usuario/RegisterController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "356E5642-5FE8-40B5-AA40-3E6E9D847E55"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerce/Controller/Usuario/RegisterController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "Registrar()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

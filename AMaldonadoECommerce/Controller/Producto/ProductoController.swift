@@ -67,6 +67,7 @@ class ProductoController: UIViewController {
         } else {
             btnActionsOutlet.setTitle("Agregar", for: .normal)
             btnActionsOutlet.tintColor = UIColor(red: 55/255, green: 146/255, blue: 55/255, alpha: 1.0)
+            ivProductoOutlet.image = UIImage(named: "DefaultProducto")
         }
         
         OcultarLabel()

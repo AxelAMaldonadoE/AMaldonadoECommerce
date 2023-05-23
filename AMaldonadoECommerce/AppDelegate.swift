@@ -8,6 +8,7 @@
 import UIKit
 import DropDown
 import IQKeyboardManagerSwift
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         DropDown.startListeningToKeyboard()
         IQKeyboardManager.shared.enable = true
+
+        FirebaseApp.configure()
         return true
     }
 
