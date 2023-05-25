@@ -217,4 +217,78 @@ class ProductoViewModel {
         sqlite3_close(dbManager.db)
         return result
     }
+    
+    static func GetByDep(idDepartamento: Int) -> Result{
+        let dbManager = DBManager()
+        let result = Result()
+        let getStatementString = "SELECT Id, Nombre, PrecioUnitario, Descripcion, Stock, Imagen FROM Producto WHERE IdDepartamento = \(idDepartamento)"
+        
+        var getStatement: OpaquePointer? = nil
+        do {
+            if try sqlite3_prepare_v2(dbManager.db, getStatementString, -1, &getStatement, nil) == SQLITE_OK {
+                result.Objects = []
+                while try sqlite3_step(getStatement) == SQLITE_ROW {
+                    let producto = Producto()
+                    producto.Id = Int(sqlite3_column_int(getStatement, 0))
+                    producto.Nombre = String(describing: String(cString: sqlite3_column_text(getStatement, 1)))
+                    producto.PrecioUnitario = Float(sqlite3_column_double(getStatement, 2))
+                    producto.Descripcion = String(cString: sqlite3_column_text(getStatement, 3))
+                    producto.Stock = Int(sqlite3_column_int(getStatement, 4))
+                    producto.Imagen = String(cString: sqlite3_column_text(getStatement, 5))
+                    
+                    result.Objects?.append(producto)
+                }
+                result.Correct = true
+            } else {
+                result.Correct = false
+                result.ErrorMessage = "Ocurrio un error al traer los productos!!"
+            }
+        } catch let ex {
+            result.Correct = false
+            result.ErrorMessage = ex.localizedDescription
+            result.Ex = ex
+        }
+        
+        sqlite3_finalize(getStatement)
+        sqlite3_close(dbManager.db)
+        
+        return result
+    }
+    
+    static func GetByBusqueda(strBusqueda: String) -> Result {
+        let dbManager = DBManager()
+        let result = Result()
+        let getStatementString = "SELECT Id, Nombre, PrecioUnitario, Descripcion, Stock, Imagen FROM Producto WHERE Nombre LIKE '%\(strBusqueda)%'"
+        var getStatement: OpaquePointer? = nil
+        
+        do {
+            if try sqlite3_prepare_v2(dbManager.db, getStatementString, -1, &getStatement, nil) == SQLITE_OK {
+                result.Objects = []
+                while try sqlite3_step(getStatement) == SQLITE_ROW {
+                    let producto = Producto()
+                    producto.Id = Int(sqlite3_column_int(getStatement, 0))
+                    producto.Nombre = String(describing: String(cString: sqlite3_column_text(getStatement, 1)))
+                    producto.PrecioUnitario = Float(sqlite3_column_double(getStatement, 2))
+                    producto.Descripcion = String(cString: sqlite3_column_text(getStatement, 3))
+                    producto.Stock = Int(sqlite3_column_int(getStatement, 4))
+                    producto.Imagen = String(cString: sqlite3_column_text(getStatement, 5))
+                    
+                    result.Objects?.append(producto)
+                }
+                result.Correct = true
+            } else {
+                result.Correct = false
+                result.ErrorMessage = "No fue posible traer los datos de los productos!!"
+            }
+        } catch let ex {
+            result.Correct = false
+            result.ErrorMessage = ex.localizedDescription
+            result.Ex = ex
+        }
+        
+        sqlite3_finalize(getStatement)
+        sqlite3_close(dbManager.db)
+        
+        return result
+    }
 }

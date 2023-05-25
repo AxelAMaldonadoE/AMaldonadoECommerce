@@ -14,6 +14,7 @@ class RegisterController: UIViewController {
     @IBOutlet weak var txtCorreo: UITextField!
     @IBOutlet weak var txtContraseña: UITextField!
     @IBOutlet weak var txtConfirmar: UITextField!
+    @IBOutlet weak var btnRegistrar: UIButton!
     
     // Outlet Label 
     @IBOutlet weak var lblCorreo: UILabel!
@@ -24,7 +25,9 @@ class RegisterController: UIViewController {
         super.viewDidLoad()
         OcultarLabel()
         txtConfirmar.delegate = self
-
+        
+        btnRegistrar.isEnabled = false
+        
         // Do any additional setup after loading the view.
     }
   
@@ -72,7 +75,7 @@ class RegisterController: UIViewController {
                 return
             }
             if let result = authResult {
-                self.performSegue(withIdentifier: "loginUsuario", sender: self)
+                self.performSegue(withIdentifier: "registerUsuario", sender: self)
             }
         }
     }
@@ -99,6 +102,7 @@ extension RegisterController: UITextFieldDelegate {
             txtConfirmar.backgroundColor = UIColor(red: 156/255, green: 255/255, blue: 46/255, alpha: 0.20)
             txtContraseña.backgroundColor = UIColor(red: 156/255, green: 255/255, blue: 46/255, alpha: 0.20)
             lblConfirmar.isHidden = true
+            btnRegistrar.isEnabled = true
         }
     }
 }

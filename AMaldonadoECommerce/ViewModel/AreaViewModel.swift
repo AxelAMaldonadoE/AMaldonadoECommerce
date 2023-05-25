@@ -42,4 +42,5 @@ class AreaViewModel {
         
         return result
     }
+
 }
