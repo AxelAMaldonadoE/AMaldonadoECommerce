@@ -44,6 +44,38 @@
 		FA9379B029FB2D2400B135FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9379AF29FB2D2400B135FB /* Assets.xcassets */; };
 		FA9379B329FB2D2400B135FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9379B129FB2D2400B135FB /* LaunchScreen.storyboard */; };
 		FA9BC2FD2A0445A5008A4B79 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BC2FC2A0445A5008A4B79 /* UsuarioViewModel.swift */; };
+		FAA71DCD2A1FE96900B23183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DCC2A1FE96900B23183 /* AppDelegate.swift */; };
+		FAA71DCF2A1FE96900B23183 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DCE2A1FE96900B23183 /* SceneDelegate.swift */; };
+		FAA71DD12A1FE96900B23183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DD02A1FE96900B23183 /* ViewController.swift */; };
+		FAA71DD42A1FE96900B23183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA71DD22A1FE96900B23183 /* Main.storyboard */; };
+		FAA71DD62A1FE96A00B23183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA71DD52A1FE96A00B23183 /* Assets.xcassets */; };
+		FAA71DD92A1FE96A00B23183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA71DD72A1FE96A00B23183 /* LaunchScreen.storyboard */; };
+		FAA71DE42A20306E00B23183 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67BF6029FC57C3007F64DA /* DBManager.swift */; };
+		FAA71DE52A20306E00B23183 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79D67D2A01D18300CD2645 /* Result.swift */; };
+		FAA71DE62A20306E00B23183 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA092F5429FC808B00F8E423 /* Usuario.swift */; };
+		FAA71DE72A20306E00B23183 /* Rol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ADA552A0AFBF40077B883 /* Rol.swift */; };
+		FAA71DE82A20306E00B23183 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64AC2A1410A300E4C14E /* Area.swift */; };
+		FAA71DE92A20307F00B23183 /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64AE2A1410B500E4C14E /* Departamento.swift */; };
+		FAA71DEA2A20307F00B23183 /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64B02A1410C600E4C14E /* Proveedor.swift */; };
+		FAA71DEB2A20307F00B23183 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64B22A1410D100E4C14E /* Producto.swift */; };
+		FAA71DEC2A20313600B23183 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BC2FC2A0445A5008A4B79 /* UsuarioViewModel.swift */; };
+		FAA71DED2A20313600B23183 /* RolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ADA532A0AFB6A0077B883 /* RolViewModel.swift */; };
+		FAA71DEE2A20313600B23183 /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64B42A14126200E4C14E /* ProductoViewModel.swift */; };
+		FAA71DEF2A20313600B23183 /* DepartamentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DA7372A15615D00D6D400 /* DepartamentoViewModel.swift */; };
+		FAA71DF02A20313600B23183 /* ProveedorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DA7392A15671900D6D400 /* ProveedorViewModel.swift */; };
+		FAA71DF12A20313600B23183 /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4363372A16D81A008B288B /* AreaViewModel.swift */; };
+		FAA71DF62A20328100B23183 /* AreaDepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DF42A20328100B23183 /* AreaDepCell.swift */; };
+		FAA71DF72A20328200B23183 /* AreaDepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA71DF52A20328100B23183 /* AreaDepCell.xib */; };
+		FAA71DFB2A2032CC00B23183 /* ProductoCollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA71DF92A2032CC00B23183 /* ProductoCollCell.xib */; };
+		FAA71DFC2A2032CC00B23183 /* ProductoCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DFA2A2032CC00B23183 /* ProductoCollCell.swift */; };
+		FAA71DFE2A20330300B23183 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71DFD2A20330300B23183 /* LoginController.swift */; };
+		FAA71E062A2034A100B23183 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FAA71E052A2034A100B23183 /* FirebaseAuth */; };
+		FAA71E082A2034A100B23183 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FAA71E072A2034A100B23183 /* FirebaseCrashlytics */; };
+		FAA71E0A2A2034A100B23183 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FAA71E092A2034A100B23183 /* FirebaseStorage */; };
+		FAA71E0B2A2035BE00B23183 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA39F66F2A180DF10034A2A1 /* GoogleService-Info.plist */; };
+		FAA71E1A2A20380E00B23183 /* GetAllAreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71E192A20380E00B23183 /* GetAllAreaController.swift */; };
+		FAA71E1C2A20387400B23183 /* GetDepartamentosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71E1B2A20387400B23183 /* GetDepartamentosController.swift */; };
+		FAA71E1E2A2038DA00B23183 /* GetProductosByDepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA71E1D2A2038DA00B23183 /* GetProductosByDepController.swift */; };
 		FABA64AD2A1410A300E4C14E /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64AC2A1410A300E4C14E /* Area.swift */; };
 		FABA64AF2A1410B500E4C14E /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64AE2A1410B500E4C14E /* Departamento.swift */; };
 		FABA64B12A1410C600E4C14E /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64B02A1410C600E4C14E /* Proveedor.swift */; };
@@ -52,6 +84,13 @@
 		FABA64BA2A14248700E4C14E /* ProductoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64B82A14248700E4C14E /* ProductoCell.swift */; };
 		FABA64BB2A14248700E4C14E /* ProductoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABA64B92A14248700E4C14E /* ProductoCell.xib */; };
 		FABA64BD2A1455A900E4C14E /* GetAllProductosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA64BC2A1455A900E4C14E /* GetAllProductosController.swift */; };
+		FAE0943B2A2142620060354B /* CarritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0943A2A2142620060354B /* CarritoViewModel.swift */; };
+		FAE0943E2A21442C0060354B /* AMaldonadoECommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAE0943C2A21442C0060354B /* AMaldonadoECommerce.xcdatamodeld */; };
+		FAE094402A214B320060354B /* Carrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0943F2A214B320060354B /* Carrito.swift */; };
+		FAE094422A214C960060354B /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE094412A214C960060354B /* RegisterController.swift */; };
+		FAE094452A214F5F0060354B /* CarritoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE094442A214F5F0060354B /* CarritoController.swift */; };
+		FAE094492A2152120060354B /* CarritoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE094472A2152120060354B /* CarritoCell.swift */; };
+		FAE0944A2A2152120060354B /* CarritoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE094482A2152120060354B /* CarritoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,7 +111,6 @@
 		FA67CCA52A1E8D8F008572A5 /* ProductoCollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollCell.swift; sourceTree = "<group>"; };
 		FA67CCA62A1E8D8F008572A5 /* ProductoCollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollCell.xib; sourceTree = "<group>"; };
 		FA67CCA92A1E9176008572A5 /* GetProductosByDepController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductosByDepController.swift; sourceTree = "<group>"; };
-		FA6C7D1E2A1D29BD00714194 /* AMaldonadoECommerce copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AMaldonadoECommerce copy-Info.plist"; path = "/Users/macbookmba15/Documentos/Axel Abraham Maldonado Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce copy-Info.plist"; sourceTree = "<absolute>"; };
 		FA6C7D282A1D8FDF00714194 /* AreaDepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDepCell.swift; sourceTree = "<group>"; };
 		FA6C7D292A1D8FDF00714194 /* AreaDepCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaDepCell.xib; sourceTree = "<group>"; };
 		FA6C7D2C2A1D906200714194 /* GetAllAreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllAreaController.swift; sourceTree = "<group>"; };
@@ -94,7 +132,25 @@
 		FA9379B229FB2D2400B135FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9379B429FB2D2400B135FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA9BC2FC2A0445A5008A4B79 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
-		FAA71DC52A1FE88200B23183 /* AMaldonadoECommerce copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AMaldonadoECommerce copy copy-Info.plist"; path = "/Users/macbookmba15/Documentos/Axel Abraham Maldonado Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce copy copy-Info.plist"; sourceTree = "<absolute>"; };
+		FAA71DCA2A1FE96900B23183 /* AMaldonadoECommerceVenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMaldonadoECommerceVenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA71DCC2A1FE96900B23183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA71DCE2A1FE96900B23183 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAA71DD02A1FE96900B23183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA71DD32A1FE96900B23183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA71DD52A1FE96A00B23183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA71DD82A1FE96A00B23183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA71DDA2A1FE96A00B23183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA71DDE2A1FEB5F00B23183 /* AMaldonadoECommerce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AMaldonadoECommerce.entitlements; sourceTree = "<group>"; };
+		FAA71DDF2A1FEB9F00B23183 /* AMaldonadoECommerceVenta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AMaldonadoECommerceVenta.entitlements; sourceTree = "<group>"; };
+		FAA71DF42A20328100B23183 /* AreaDepCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaDepCell.swift; sourceTree = "<group>"; };
+		FAA71DF52A20328100B23183 /* AreaDepCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AreaDepCell.xib; sourceTree = "<group>"; };
+		FAA71DF92A2032CC00B23183 /* ProductoCollCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductoCollCell.xib; path = AMaldonadoECommerce/View/Cell/Producto/Collection/ProductoCollCell.xib; sourceTree = SOURCE_ROOT; };
+		FAA71DFA2A2032CC00B23183 /* ProductoCollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductoCollCell.swift; path = AMaldonadoECommerce/View/Cell/Producto/Collection/ProductoCollCell.swift; sourceTree = SOURCE_ROOT; };
+		FAA71DFD2A20330300B23183 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		FAA71E192A20380E00B23183 /* GetAllAreaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllAreaController.swift; sourceTree = "<group>"; };
+		FAA71E1B2A20387400B23183 /* GetDepartamentosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDepartamentosController.swift; sourceTree = "<group>"; };
+		FAA71E1D2A2038DA00B23183 /* GetProductosByDepController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetProductosByDepController.swift; sourceTree = "<group>"; };
+		FAAAA82C2A250A8A00576FED /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABA64AC2A1410A300E4C14E /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		FABA64AE2A1410B500E4C14E /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
 		FABA64B02A1410C600E4C14E /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
@@ -103,6 +159,13 @@
 		FABA64B82A14248700E4C14E /* ProductoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCell.swift; sourceTree = "<group>"; };
 		FABA64B92A14248700E4C14E /* ProductoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCell.xib; sourceTree = "<group>"; };
 		FABA64BC2A1455A900E4C14E /* GetAllProductosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllProductosController.swift; sourceTree = "<group>"; };
+		FAE0943A2A2142620060354B /* CarritoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewModel.swift; sourceTree = "<group>"; };
+		FAE0943D2A21442C0060354B /* AMaldonadoECommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AMaldonadoECommerce.xcdatamodel; sourceTree = "<group>"; };
+		FAE0943F2A214B320060354B /* Carrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrito.swift; sourceTree = "<group>"; };
+		FAE094412A214C960060354B /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		FAE094442A214F5F0060354B /* CarritoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoController.swift; sourceTree = "<group>"; };
+		FAE094472A2152120060354B /* CarritoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoCell.swift; sourceTree = "<group>"; };
+		FAE094482A2152120060354B /* CarritoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarritoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +180,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAA71DC72A1FE96900B23183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA71E062A2034A100B23183 /* FirebaseAuth in Frameworks */,
+				FAA71E082A2034A100B23183 /* FirebaseCrashlytics in Frameworks */,
+				FAA71E0A2A2034A100B23183 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		5BE5955DAB0D95BBE9ECE7CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAAAA82C2A250A8A00576FED /* SwipeCellKit.framework */,
 				E594F967522DFE6335B40369 /* Pods_AMaldonadoECommerce.framework */,
 			);
 			name = Frameworks;
@@ -221,12 +295,12 @@
 		FA93799A29FB2D2300B135FB = {
 			isa = PBXGroup;
 			children = (
+				FAE0943C2A21442C0060354B /* AMaldonadoECommerce.xcdatamodeld */,
 				FA9379A529FB2D2300B135FB /* AMaldonadoECommerce */,
+				FAA71DCB2A1FE96900B23183 /* AMaldonadoECommerceVenta */,
 				FA9379A429FB2D2300B135FB /* Products */,
 				8AD23A0256F7B2D5ACAF32F2 /* Pods */,
 				5BE5955DAB0D95BBE9ECE7CC /* Frameworks */,
-				FA6C7D1E2A1D29BD00714194 /* AMaldonadoECommerce copy-Info.plist */,
-				FAA71DC52A1FE88200B23183 /* AMaldonadoECommerce copy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				FA9379A329FB2D2300B135FB /* AMaldonadoECommerce.app */,
+				FAA71DCA2A1FE96900B23183 /* AMaldonadoECommerceVenta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +316,7 @@
 		FA9379A529FB2D2300B135FB /* AMaldonadoECommerce */ = {
 			isa = PBXGroup;
 			children = (
+				FAA71DDE2A1FEB5F00B23183 /* AMaldonadoECommerce.entitlements */,
 				FA9BC2FB2A044572008A4B79 /* Util */,
 				FA9BC2F92A044518008A4B79 /* Controller */,
 				FA9BC2F82A04450F008A4B79 /* ViewModel */,
@@ -323,6 +399,98 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		FAA71DCB2A1FE96900B23183 /* AMaldonadoECommerceVenta */ = {
+			isa = PBXGroup;
+			children = (
+				FAE094392A2142400060354B /* Model */,
+				FAE094382A2142350060354B /* ViewModel */,
+				FAA71DE12A202F8F00B23183 /* Controller */,
+				FAA71DE02A202F6E00B23183 /* View */,
+				FAA71DDF2A1FEB9F00B23183 /* AMaldonadoECommerceVenta.entitlements */,
+				FAA71DCC2A1FE96900B23183 /* AppDelegate.swift */,
+				FAA71DCE2A1FE96900B23183 /* SceneDelegate.swift */,
+				FAA71DD02A1FE96900B23183 /* ViewController.swift */,
+				FAA71DD52A1FE96A00B23183 /* Assets.xcassets */,
+				FAA71DDA2A1FE96A00B23183 /* Info.plist */,
+			);
+			path = AMaldonadoECommerceVenta;
+			sourceTree = "<group>";
+		};
+		FAA71DE02A202F6E00B23183 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAE094462A2151300060354B /* Carrito */,
+				FAA71DF82A2032A000B23183 /* Producto */,
+				FAA71DF22A2031A500B23183 /* AreaDep */,
+				FAA71DD22A1FE96900B23183 /* Main.storyboard */,
+				FAA71DD72A1FE96A00B23183 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAA71DE12A202F8F00B23183 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAE094432A214F360060354B /* Carrito */,
+				FAA71E122A2036A500B23183 /* Producto */,
+				FAA71E0F2A20369400B23183 /* Departamento */,
+				FAA71E0C2A20365000B23183 /* Area */,
+				FAA71DE32A202FE300B23183 /* Usuario */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAA71DE32A202FE300B23183 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				FAA71DFD2A20330300B23183 /* LoginController.swift */,
+				FAE094412A214C960060354B /* RegisterController.swift */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		FAA71DF22A2031A500B23183 /* AreaDep */ = {
+			isa = PBXGroup;
+			children = (
+				FAA71DF42A20328100B23183 /* AreaDepCell.swift */,
+				FAA71DF52A20328100B23183 /* AreaDepCell.xib */,
+			);
+			path = AreaDep;
+			sourceTree = "<group>";
+		};
+		FAA71DF82A2032A000B23183 /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				FAA71DFA2A2032CC00B23183 /* ProductoCollCell.swift */,
+				FAA71DF92A2032CC00B23183 /* ProductoCollCell.xib */,
+			);
+			path = Producto;
+			sourceTree = "<group>";
+		};
+		FAA71E0C2A20365000B23183 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				FAA71E192A20380E00B23183 /* GetAllAreaController.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		FAA71E0F2A20369400B23183 /* Departamento */ = {
+			isa = PBXGroup;
+			children = (
+				FAA71E1B2A20387400B23183 /* GetDepartamentosController.swift */,
+			);
+			path = Departamento;
+			sourceTree = "<group>";
+		};
+		FAA71E122A2036A500B23183 /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				FAA71E1D2A2038DA00B23183 /* GetProductosByDepController.swift */,
+			);
+			path = Producto;
+			sourceTree = "<group>";
+		};
 		FABA64B62A14231D00E4C14E /* Producto */ = {
 			isa = PBXGroup;
 			children = (
@@ -340,6 +508,39 @@
 				FA67CCA22A1E8D3B008572A5 /* List */,
 			);
 			path = Producto;
+			sourceTree = "<group>";
+		};
+		FAE094382A2142350060354B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAE0943A2A2142620060354B /* CarritoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAE094392A2142400060354B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAE0943F2A214B320060354B /* Carrito.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAE094432A214F360060354B /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				FAE094442A214F5F0060354B /* CarritoController.swift */,
+			);
+			path = Carrito;
+			sourceTree = "<group>";
+		};
+		FAE094462A2151300060354B /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				FAE094472A2152120060354B /* CarritoCell.swift */,
+				FAE094482A2152120060354B /* CarritoCell.xib */,
+			);
+			path = Carrito;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +570,28 @@
 			productReference = FA9379A329FB2D2300B135FB /* AMaldonadoECommerce.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FAA71DC92A1FE96900B23183 /* AMaldonadoECommerceVenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA71DDB2A1FE96A00B23183 /* Build configuration list for PBXNativeTarget "AMaldonadoECommerceVenta" */;
+			buildPhases = (
+				FAA71DC62A1FE96900B23183 /* Sources */,
+				FAA71DC72A1FE96900B23183 /* Frameworks */,
+				FAA71DC82A1FE96900B23183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMaldonadoECommerceVenta;
+			packageProductDependencies = (
+				FAA71E052A2034A100B23183 /* FirebaseAuth */,
+				FAA71E072A2034A100B23183 /* FirebaseCrashlytics */,
+				FAA71E092A2034A100B23183 /* FirebaseStorage */,
+			);
+			productName = AMaldonadoECommerceVenta;
+			productReference = FAA71DCA2A1FE96900B23183 /* AMaldonadoECommerceVenta.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -380,6 +603,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					FA9379A229FB2D2300B135FB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FAA71DC92A1FE96900B23183 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -401,6 +627,7 @@
 			projectRoot = "";
 			targets = (
 				FA9379A229FB2D2300B135FB /* AMaldonadoECommerce */,
+				FAA71DC92A1FE96900B23183 /* AMaldonadoECommerceVenta */,
 			);
 		};
 /* End PBXProject section */
@@ -419,6 +646,20 @@
 				FA67CCA82A1E8D8F008572A5 /* ProductoCollCell.xib in Resources */,
 				FABA64BB2A14248700E4C14E /* ProductoCell.xib in Resources */,
 				FA39F6702A180DF10034A2A1 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA71DC82A1FE96900B23183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE0944A2A2152120060354B /* CarritoCell.xib in Resources */,
+				FAA71E0B2A2035BE00B23183 /* GoogleService-Info.plist in Resources */,
+				FAA71DFB2A2032CC00B23183 /* ProductoCollCell.xib in Resources */,
+				FAA71DD92A1FE96A00B23183 /* LaunchScreen.storyboard in Resources */,
+				FAA71DD62A1FE96A00B23183 /* Assets.xcassets in Resources */,
+				FAA71DF72A20328200B23183 /* AreaDepCell.xib in Resources */,
+				FAA71DD42A1FE96900B23183 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +747,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAA71DC62A1FE96900B23183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA71DEC2A20313600B23183 /* UsuarioViewModel.swift in Sources */,
+				FAE094492A2152120060354B /* CarritoCell.swift in Sources */,
+				FAA71DED2A20313600B23183 /* RolViewModel.swift in Sources */,
+				FAE0943E2A21442C0060354B /* AMaldonadoECommerce.xcdatamodeld in Sources */,
+				FAA71DEE2A20313600B23183 /* ProductoViewModel.swift in Sources */,
+				FAE0943B2A2142620060354B /* CarritoViewModel.swift in Sources */,
+				FAA71E1E2A2038DA00B23183 /* GetProductosByDepController.swift in Sources */,
+				FAA71DEF2A20313600B23183 /* DepartamentoViewModel.swift in Sources */,
+				FAA71DF02A20313600B23183 /* ProveedorViewModel.swift in Sources */,
+				FAA71DF12A20313600B23183 /* AreaViewModel.swift in Sources */,
+				FAA71DE92A20307F00B23183 /* Departamento.swift in Sources */,
+				FAA71DEA2A20307F00B23183 /* Proveedor.swift in Sources */,
+				FAA71DEB2A20307F00B23183 /* Producto.swift in Sources */,
+				FAA71DFE2A20330300B23183 /* LoginController.swift in Sources */,
+				FAA71DE42A20306E00B23183 /* DBManager.swift in Sources */,
+				FAA71DE52A20306E00B23183 /* Result.swift in Sources */,
+				FAA71E1C2A20387400B23183 /* GetDepartamentosController.swift in Sources */,
+				FAA71DE62A20306E00B23183 /* Usuario.swift in Sources */,
+				FAA71DE72A20306E00B23183 /* Rol.swift in Sources */,
+				FAA71DE82A20306E00B23183 /* Area.swift in Sources */,
+				FAA71DFC2A2032CC00B23183 /* ProductoCollCell.swift in Sources */,
+				FAA71DD12A1FE96900B23183 /* ViewController.swift in Sources */,
+				FAA71E1A2A20380E00B23183 /* GetAllAreaController.swift in Sources */,
+				FAE094402A214B320060354B /* Carrito.swift in Sources */,
+				FAA71DCD2A1FE96900B23183 /* AppDelegate.swift in Sources */,
+				FAA71DF62A20328100B23183 /* AreaDepCell.swift in Sources */,
+				FAA71DCF2A1FE96900B23183 /* SceneDelegate.swift in Sources */,
+				FAE094452A214F5F0060354B /* CarritoController.swift in Sources */,
+				FAE094422A214C960060354B /* RegisterController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -521,6 +798,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA9379B229FB2D2400B135FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA71DD22A1FE96900B23183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA71DD32A1FE96900B23183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA71DD72A1FE96A00B23183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA71DD82A1FE96A00B23183 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -648,8 +941,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AMaldonadoECommerce/AMaldonadoECommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4TH999P5P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AMaldonadoECommerce/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -676,8 +971,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AMaldonadoECommerce/AMaldonadoECommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4TH999P5P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AMaldonadoECommerce/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -691,6 +988,64 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digis.AMaldonadoECommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA71DDC2A1FE96A00B23183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AMaldonadoECommerceVenta/AMaldonadoECommerceVenta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4TH999P5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AMaldonadoECommerceVenta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.AMaldonadoECommerceVenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA71DDD2A1FE96A00B23183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AMaldonadoECommerceVenta/AMaldonadoECommerceVenta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4TH999P5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AMaldonadoECommerceVenta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.AMaldonadoECommerceVenta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -715,6 +1070,15 @@
 			buildConfigurations = (
 				FA9379B829FB2D2400B135FB /* Debug */,
 				FA9379B929FB2D2400B135FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA71DDB2A1FE96A00B23183 /* Build configuration list for PBXNativeTarget "AMaldonadoECommerceVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA71DDC2A1FE96A00B23183 /* Debug */,
+				FAA71DDD2A1FE96A00B23183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,7 +1112,35 @@
 			package = FA39F6712A180EF20034A2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
+		FAA71E052A2034A100B23183 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA39F6712A180EF20034A2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FAA71E072A2034A100B23183 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA39F6712A180EF20034A2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		FAA71E092A2034A100B23183 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA39F6712A180EF20034A2A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FAE0943C2A21442C0060354B /* AMaldonadoECommerce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAE0943D2A21442C0060354B /* AMaldonadoECommerce.xcdatamodel */,
+			);
+			currentVersion = FAE0943D2A21442C0060354B /* AMaldonadoECommerce.xcdatamodel */;
+			path = AMaldonadoECommerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA93799B29FB2D2300B135FB /* Project object */;
 }

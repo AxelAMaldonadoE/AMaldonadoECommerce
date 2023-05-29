@@ -19,7 +19,8 @@ class DBManager {
     
     func Get() -> OpaquePointer?
     {
-        let filePath = try! FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent(dbPath)
+//        let filePath = try! FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent(dbPath)
+        let filePath = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.AMaldonadoECommerce")!.appendingPathComponent(dbPath)
         
 //        let filePath = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
         var db: OpaquePointer? = nil

@@ -393,6 +393,21 @@
                   endingLineNumber = "76"
                   offsetFromSymbolStart = "3304">
                </Location>
+               <Location
+                  uuid = "67501230-EEE4-4C8D-94CB-93606CC5AB99 - 5b03f9e604b712a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static AMaldonadoECommerceVenta.UsuarioViewModel.Update(usuario: AMaldonadoECommerceVenta.Usuario) -&gt; AMaldonadoECommerceVenta.Result"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerce/ViewModel/UsuarioViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "3304">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -826,6 +841,54 @@
             endingLineNumber = "70"
             landmarkName = "Registrar()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A9D34C3-8226-40A1-BBEB-8CDA9E2EACC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "UpdateData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A9D34C3-8226-40A1-BBEB-8CDA9E2EACC1 - a68815111160e7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVenta.CarritoController.UpdateData() -&gt; ()"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "888">
+               </Location>
+               <Location
+                  uuid = "0A9D34C3-8226-40A1-BBEB-8CDA9E2EACC1 - a68815111160e1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVenta.CarritoController.UpdateData() -&gt; ()"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "888">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
