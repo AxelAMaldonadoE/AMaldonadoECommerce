@@ -11,6 +11,7 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+//    static private(set) var instance: AppDelegate! = nil
 
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "AMaldonadoECommerce")
@@ -27,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+//        AppDelegate.instance = self
         return true
     }
 

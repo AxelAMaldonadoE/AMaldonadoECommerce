@@ -846,49 +846,237 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0A9D34C3-8226-40A1-BBEB-8CDA9E2EACC1"
+            uuid = "5D33EFFD-959E-4276-B8DD-D7AAA96E563C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "tableView(_:editActionsForRowAt:for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D33EFFD-959E-4276-B8DD-D7AAA96E563C - f721ad7344ceff84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwipeCellKit.SwipeAction, Foundation.IndexPath) -&gt; () in AMaldonadoECommerceVenta.CarritoController.tableView(_: __C.UITableView, editActionsForRowAt: Foundation.IndexPath, for: SwipeCellKit.SwipeActionsOrientation) -&gt; Swift.Optional&lt;Swift.Array&lt;SwipeCellKit.SwipeAction&gt;&gt;"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "2148">
+               </Location>
+               <Location
+                  uuid = "5D33EFFD-959E-4276-B8DD-D7AAA96E563C - f721ad7344ceffe5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwipeCellKit.SwipeAction, Foundation.IndexPath) -&gt; () in AMaldonadoECommerceVenta.CarritoController.tableView(_: __C.UITableView, editActionsForRowAt: Foundation.IndexPath, for: SwipeCellKit.SwipeActionsOrientation) -&gt; Swift.Optional&lt;Swift.Array&lt;SwipeCellKit.SwipeAction&gt;&gt;"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "2148">
+               </Location>
+               <Location
+                  uuid = "5D33EFFD-959E-4276-B8DD-D7AAA96E563C - f721ad7344cef3e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwipeCellKit.SwipeAction, Foundation.IndexPath) -&gt; () in AMaldonadoECommerceVenta.CarritoController.tableView(_: __C.UITableView, editActionsForRowAt: Foundation.IndexPath, for: SwipeCellKit.SwipeActionsOrientation) -&gt; Swift.Optional&lt;Swift.Array&lt;SwipeCellKit.SwipeAction&gt;&gt;"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "2148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D9DE595-9DF9-4F02-8778-4DC04D74C1B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "Delete(idProducto:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D9DE595-9DF9-4F02-8778-4DC04D74C1B0 - 33ccd9a94be91c28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVenta.CarritoViewModel.Delete(idProducto: Swift.Int) -&gt; AMaldonadoECommerceVenta.Result"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "0D9DE595-9DF9-4F02-8778-4DC04D74C1B0 - 33ccd9a94be91c0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVenta.CarritoViewModel.Delete(idProducto: Swift.Int) -&gt; AMaldonadoECommerceVenta.Result"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "0D9DE595-9DF9-4F02-8778-4DC04D74C1B0 - 26f890bf6cbe3ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVentaTests.CarritoViewModel.Delete(idProducto: Swift.Int) -&gt; AMaldonadoECommerceVentaTests.Result"
+                  moduleName = "AMaldonadoECommerceVentaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "0D9DE595-9DF9-4F02-8778-4DC04D74C1B0 - 33ccd9a94be9e362"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVenta.CarritoViewModel.Delete(idProducto: Swift.Int) -&gt; AMaldonadoECommerceVenta.Result"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B342D10-87FE-4C15-82E6-1049263C6E23"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "UpdateCantidad(idProducto:cantidad:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B342D10-87FE-4C15-82E6-1049263C6E23 - 12737671860f85f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVenta.CarritoViewModel.UpdateCantidad(idProducto: Swift.Int, cantidad: Swift.Int) -&gt; AMaldonadoECommerceVenta.Result"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "2B342D10-87FE-4C15-82E6-1049263C6E23 - 12737671860f85f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVenta.CarritoViewModel.UpdateCantidad(idProducto: Swift.Int, cantidad: Swift.Int) -&gt; AMaldonadoECommerceVenta.Result"
+                  moduleName = "AMaldonadoECommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "2B342D10-87FE-4C15-82E6-1049263C6E23 - fc490af9b3c6bef7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AMaldonadoECommerceVentaTests.CarritoViewModel.UpdateCantidad(idProducto: Swift.Int, cantidad: Swift.Int) -&gt; AMaldonadoECommerceVentaTests.Result"
+                  moduleName = "AMaldonadoECommerceVentaTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "596">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86E05576-C43B-46B4-86A4-BCB33C3122CB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "UpdateData()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0A9D34C3-8226-40A1-BBEB-8CDA9E2EACC1 - a68815111160e7b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AMaldonadoECommerceVenta.CarritoController.UpdateData() -&gt; ()"
-                  moduleName = "AMaldonadoECommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "888">
-               </Location>
-               <Location
-                  uuid = "0A9D34C3-8226-40A1-BBEB-8CDA9E2EACC1 - a68815111160e1c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AMaldonadoECommerceVenta.CarritoController.UpdateData() -&gt; ()"
-                  moduleName = "AMaldonadoECommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba15/Documentos/Axel%20Abraham%20Maldonado%20Enriquez/SwiftProjects/AMaldonadoECommerce/AMaldonadoECommerceVenta/Controller/Carrito/CarritoController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "888">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01754063-B25A-4BE6-9A3A-3301B58567CA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AMaldonadoECommerceVenta/ViewModel/CarritoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "UpdateCantidad(idProducto:cantidad:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

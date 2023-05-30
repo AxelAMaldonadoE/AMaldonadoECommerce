@@ -38,6 +38,137 @@ class CarritoViewModel {
         return result
     }
     
+    func UpdateCantidad(idProducto: Int, cantidad: Int) -> Result {
+        let result = Result()
+        let context = appDelegate.persistentContainer.viewContext
+        
+        do {
+            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "VentaProducto")
+            let predicate = NSPredicate(format: "idProducto = %i", idProducto)
+            request.predicate = predicate
+            
+            let resultFetch = try context.fetch(request)
+            
+            if let updateFetch = resultFetch as? [NSManagedObject] {
+                if updateFetch.count == 1 {
+                    let actualizar = updateFetch.first
+                    
+                    actualizar?.setValue(cantidad, forKey: "cantidad")
+                    
+                    try context.save()
+                    
+                    result.Correct = true
+                } else {
+                    result.Correct = false
+                    result.ErrorMessage = "Ocurrio un error, no se encontro el id del producto"
+                }
+            } else {
+                result.Correct = false
+                result.ErrorMessage = "Ocurrio un error"
+            }
+        } catch let ex {
+            result.Correct = false
+            result.ErrorMessage = ex.localizedDescription
+            result.Ex = ex
+        }
+        
+        return result
+    }
+    
+    func Delete(idProducto: Int) -> Result {
+        let result = Result()
+        let context = appDelegate.persistentContainer.viewContext
+        
+        do {
+            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "VentaProducto")
+            let predicate = NSPredicate(format: "idProducto = %i", idProducto)
+            request.predicate = predicate
+            let resultFetch = try context.fetch(request)
+            
+            for obj in resultFetch as! [NSManagedObject] {
+                context.delete(obj)
+            }
+            try context.save()
+            result.Correct = true
+        } catch let ex {
+            result.Correct = false
+            result.ErrorMessage = ex.localizedDescription
+            result.Ex = ex
+        }
+        
+        return result
+    }
+    
+    func GetComprobar(idProducto: Int) -> Result {
+        let result = Result()
+        let context = appDelegate.persistentContainer.viewContext
+        
+        do {
+            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "VentaProducto")
+            
+            let predicate = NSPredicate(format: "idProducto = %i", idProducto)
+            request.predicate = predicate
+            
+            let resultFetch = try context.fetch(request)
+            
+            if let existe = resultFetch as? [NSManagedObject] {
+                // Si hay en el arreglo mas de un elemento entonces ya no se debe agregar producto al carrito
+                if existe.count == 1 {
+                    result.Correct = true
+                } else {
+                    result.Correct = false
+                }
+            }
+        } catch let ex {
+            result.Correct = false
+            result.ErrorMessage = ex.localizedDescription
+            result.Ex = ex
+        }
+        
+        return result
+    }
+    
+    func GetById(idProducto: Int) -> Result {
+        let result = Result()
+        let context = appDelegate.persistentContainer.viewContext
+        
+        do {
+            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "VentaProducto")
+            
+            let predicate = NSPredicate(format: "idProducto = %i", idProducto)
+            request.predicate = predicate
+            
+            let resultFetch = try context.fetch(request)
+            
+            if let existe = resultFetch as? [NSManagedObject] {
+                // Si hay en el arreglo mas de un elemento entonces ya no se debe agregar producto al carrito
+//                if existe.count >= 1 {
+//                    result.Correct = true
+//                } else {
+//                    result.Correct = false
+//                }
+                if existe.count >= 1 {
+                    let carrito = Carrito()
+                    carrito.Cantidad = (existe[0].value(forKey: "cantidad") as! Int)
+                    carrito.Producto = Producto()
+                    carrito.Producto?.Id = (existe[0].value(forKey: "idProducto") as! Int)
+                    
+                    result.Object = carrito
+                    result.Correct = true
+                } else {
+                    result.Correct = false
+                    result.ErrorMessage = "Ocurrio un error"
+                }
+            }
+        } catch let ex {
+            result.Correct = false
+            result.ErrorMessage = ex.localizedDescription
+            result.Ex = ex
+        }
+        
+        return result
+    }
+    
     func GetAll() -> Result {
         let result = Result()
         let context = appDelegate.persistentContainer.viewContext
