@@ -17,6 +17,8 @@
 		FA1ADA5D2A0B0A5F0077B883 /* RolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ADA5B2A0B0A5F0077B883 /* RolCell.swift */; };
 		FA1ADA5E2A0B0A5F0077B883 /* RolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1ADA5C2A0B0A5F0077B883 /* RolCell.xib */; };
 		FA289FB72A257C7600438183 /* AMaldonadoECommerceVentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA289FB62A257C7600438183 /* AMaldonadoECommerceVentaTests.swift */; };
+		FA3011662A26CEB90055B04A /* AMaldonadoECommerceVentaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3011652A26CEB90055B04A /* AMaldonadoECommerceVentaUITests.swift */; };
+		FA3011682A26CEB90055B04A /* AMaldonadoECommerceVentaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3011672A26CEB90055B04A /* AMaldonadoECommerceVentaUITestsLaunchTests.swift */; };
 		FA39F6702A180DF10034A2A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA39F66F2A180DF10034A2A1 /* GoogleService-Info.plist */; };
 		FA39F6732A180EF20034A2A1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA39F6722A180EF20034A2A1 /* FirebaseAuth */; };
 		FA39F6752A180EF20034A2A1 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FA39F6742A180EF20034A2A1 /* FirebaseCrashlytics */; };
@@ -106,6 +108,13 @@
 			remoteGlobalIDString = FAA71DC92A1FE96900B23183;
 			remoteInfo = AMaldonadoECommerceVenta;
 		};
+		FA3011692A26CEB90055B04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA93799B29FB2D2300B135FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA71DC92A1FE96900B23183;
+			remoteInfo = AMaldonadoECommerceVenta;
+		};
 		FA8240FB2A26848900C9DDDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA93799B29FB2D2300B135FB /* Project object */;
@@ -131,6 +140,9 @@
 		FA1ADA5C2A0B0A5F0077B883 /* RolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RolCell.xib; sourceTree = "<group>"; };
 		FA289FB42A257C7600438183 /* AMaldonadoECommerceVentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMaldonadoECommerceVentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA289FB62A257C7600438183 /* AMaldonadoECommerceVentaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMaldonadoECommerceVentaTests.swift; sourceTree = "<group>"; };
+		FA3011632A26CEB80055B04A /* AMaldonadoECommerceVentaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMaldonadoECommerceVentaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3011652A26CEB90055B04A /* AMaldonadoECommerceVentaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMaldonadoECommerceVentaUITests.swift; sourceTree = "<group>"; };
+		FA3011672A26CEB90055B04A /* AMaldonadoECommerceVentaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMaldonadoECommerceVentaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA39F66F2A180DF10034A2A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA3ECD582A2586D600F3DB73 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3ECD5A2A2586FE00F3DB73 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +217,13 @@
 				FA8240F62A2683E400C9DDDD /* FirebaseAuth in Frameworks */,
 				FA8240F82A2683E400C9DDDD /* FirebaseCrashlytics in Frameworks */,
 				FA8240FA2A2683E400C9DDDD /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3011602A26CEB80055B04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +321,15 @@
 			path = AMaldonadoECommerceVentaTests;
 			sourceTree = "<group>";
 		};
+		FA3011642A26CEB90055B04A /* AMaldonadoECommerceVentaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3011652A26CEB90055B04A /* AMaldonadoECommerceVentaUITests.swift */,
+				FA3011672A26CEB90055B04A /* AMaldonadoECommerceVentaUITestsLaunchTests.swift */,
+			);
+			path = AMaldonadoECommerceVentaUITests;
+			sourceTree = "<group>";
+		};
 		FA67CC9F2A1E778E008572A5 /* Departamento */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +379,7 @@
 				FA9379A529FB2D2300B135FB /* AMaldonadoECommerce */,
 				FAA71DCB2A1FE96900B23183 /* AMaldonadoECommerceVenta */,
 				FA289FB52A257C7600438183 /* AMaldonadoECommerceVentaTests */,
+				FA3011642A26CEB90055B04A /* AMaldonadoECommerceVentaUITests */,
 				FA9379A429FB2D2300B135FB /* Products */,
 				8AD23A0256F7B2D5ACAF32F2 /* Pods */,
 				5BE5955DAB0D95BBE9ECE7CC /* Frameworks */,
@@ -363,6 +392,7 @@
 				FA9379A329FB2D2300B135FB /* AMaldonadoECommerce.app */,
 				FAA71DCA2A1FE96900B23183 /* AMaldonadoECommerceVenta.app */,
 				FA289FB42A257C7600438183 /* AMaldonadoECommerceVentaTests.xctest */,
+				FA3011632A26CEB80055B04A /* AMaldonadoECommerceVentaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -625,6 +655,24 @@
 			productReference = FA289FB42A257C7600438183 /* AMaldonadoECommerceVentaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FA3011622A26CEB80055B04A /* AMaldonadoECommerceVentaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA30116D2A26CEB90055B04A /* Build configuration list for PBXNativeTarget "AMaldonadoECommerceVentaUITests" */;
+			buildPhases = (
+				FA30115F2A26CEB80055B04A /* Sources */,
+				FA3011602A26CEB80055B04A /* Frameworks */,
+				FA3011612A26CEB80055B04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA30116A2A26CEB90055B04A /* PBXTargetDependency */,
+			);
+			name = AMaldonadoECommerceVentaUITests;
+			productName = AMaldonadoECommerceVentaUITests;
+			productReference = FA3011632A26CEB80055B04A /* AMaldonadoECommerceVentaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		FA9379A229FB2D2300B135FB /* AMaldonadoECommerce */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA9379B729FB2D2400B135FB /* Build configuration list for PBXNativeTarget "AMaldonadoECommerce" */;
@@ -687,6 +735,10 @@
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = FAA71DC92A1FE96900B23183;
 					};
+					FA3011622A26CEB80055B04A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FAA71DC92A1FE96900B23183;
+					};
 					FA9379A229FB2D2300B135FB = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -714,12 +766,20 @@
 				FA9379A229FB2D2300B135FB /* AMaldonadoECommerce */,
 				FAA71DC92A1FE96900B23183 /* AMaldonadoECommerceVenta */,
 				FA289FB32A257C7600438183 /* AMaldonadoECommerceVentaTests */,
+				FA3011622A26CEB80055B04A /* AMaldonadoECommerceVentaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FA289FB22A257C7600438183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3011612A26CEB80055B04A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -848,6 +908,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA30115F2A26CEB80055B04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3011682A26CEB90055B04A /* AMaldonadoECommerceVentaUITestsLaunchTests.swift in Sources */,
+				FA3011662A26CEB90055B04A /* AMaldonadoECommerceVentaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA93799F29FB2D2300B135FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -931,6 +1000,11 @@
 			target = FAA71DC92A1FE96900B23183 /* AMaldonadoECommerceVenta */;
 			targetProxy = FA289FB82A257C7600438183 /* PBXContainerItemProxy */;
 		};
+		FA30116A2A26CEB90055B04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA71DC92A1FE96900B23183 /* AMaldonadoECommerceVenta */;
+			targetProxy = FA3011692A26CEB90055B04A /* PBXContainerItemProxy */;
+		};
 		FA8240FC2A26848900C9DDDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FA9379A229FB2D2300B135FB /* AMaldonadoECommerce */;
@@ -1007,6 +1081,40 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMaldonadoECommerceVenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AMaldonadoECommerceVenta";
+			};
+			name = Release;
+		};
+		FA30116B2A26CEB90055B04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4TH999P5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.AMaldonadoECommerceVentaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMaldonadoECommerceVenta;
+			};
+			name = Debug;
+		};
+		FA30116C2A26CEB90055B04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4TH999P5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.AMaldonadoECommerceVentaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMaldonadoECommerceVenta;
 			};
 			name = Release;
 		};
@@ -1252,6 +1360,15 @@
 			buildConfigurations = (
 				FA289FBA2A257C7600438183 /* Debug */,
 				FA289FBB2A257C7600438183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA30116D2A26CEB90055B04A /* Build configuration list for PBXNativeTarget "AMaldonadoECommerceVentaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA30116B2A26CEB90055B04A /* Debug */,
+				FA30116C2A26CEB90055B04A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

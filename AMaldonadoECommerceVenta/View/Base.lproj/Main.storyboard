@@ -109,6 +109,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="axeladmin@gmail.com" borderStyle="roundedRect" placeholder="Correo Electronico" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XGA-tR-1AS">
                                                 <rect key="frame" x="0.0" y="24.333333333333314" width="225" height="34"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="loginCorreo"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                             </textField>
@@ -302,6 +303,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo Electronico" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-sY-0Jo">
                                                 <rect key="frame" x="0.0" y="23.333333333333314" width="225" height="34"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="registerCorreo"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                             </textField>
@@ -695,7 +697,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="mpI-AC-hSb"/>
-        <segue reference="iM0-tn-Aad"/>
+        <segue reference="oWX-Rq-f8v"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Ecommerce" width="128" height="128"/>

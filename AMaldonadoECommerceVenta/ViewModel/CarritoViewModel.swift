@@ -11,13 +11,22 @@ import CoreData
 
 class CarritoViewModel {
     
+    enum ErrorCase: Error {
+        case invalid
+        case empty
+    }
+    
+    var idProduct: Int? = nil
+    
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
-    func Add(_ idProducto: Int) ->Result {
+    func Add(_ idProducto: Int) -> Result {
         let result = Result()
         let context = appDelegate.persistentContainer.viewContext
         
         do {
+            idProduct = idProducto
+            try checkIdProducto(idProduct)
             let entity = NSEntityDescription.entity(forEntityName: "VentaProducto", in: context)!
             
             let producto = NSManagedObject(entity: entity, insertInto: context)
@@ -28,7 +37,9 @@ class CarritoViewModel {
             try context.save()
             
             result.Correct = true
-            
+        } catch CarritoViewModel.ErrorCase.empty {
+            result.Correct = false
+            result.ErrorMessage = "El id de producto viene vacio!!"
         } catch let ex {
             result.Correct = false
             result.ErrorMessage = ex.localizedDescription
@@ -36,6 +47,12 @@ class CarritoViewModel {
         }
         
         return result
+    }
+    
+    func checkIdProducto(_ idProducto: Int?) throws {
+        if idProducto == nil {
+            throw ErrorCase.empty
+        }
     }
     
     func UpdateCantidad(idProducto: Int, cantidad: Int) -> Result {
@@ -74,6 +91,8 @@ class CarritoViewModel {
         
         return result
     }
+    
+//    private func Predicado() throws -> 
     
     func Delete(idProducto: Int) -> Result {
         let result = Result()

@@ -39,8 +39,16 @@ final class AMaldonadoECommerceVentaTests: XCTestCase {
     }
     
     func testAdd() throws {
-        let result = carritoViewModel.Add(10)
+        let result = carritoViewModel.Add(9)
         
         XCTAssertTrue(result.Correct!)
+        XCTAssertNil(result.ErrorMessage)
+    }
+    
+    func testDelete() throws {
+        let result = carritoViewModel.Delete(idProducto: 5)
+        
+        XCTAssertNotNil(result.Correct)
+//        XCTAssertTrue(result.Correct!)
     }
 }

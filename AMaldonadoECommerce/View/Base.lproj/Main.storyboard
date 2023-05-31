@@ -314,6 +314,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="axeladmin@gmail.com" borderStyle="roundedRect" placeholder="Correo Electronico" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m3B-ry-JyH">
                                                 <rect key="frame" x="0.0" y="24.333333333333314" width="225" height="34"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="loginCorreo"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                             </textField>
@@ -759,7 +760,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgT-ju-k0v">
-                                <rect key="frame" x="312.33333333333331" y="135.33333333333334" width="64.666666666666686" height="47.333333333333343"/>
+                                <rect key="frame" x="312.33333333333331" y="136" width="64.666666666666686" height="46.333333333333343"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="magnifyingglass.circle.fill" catalog="system" imagePadding="18">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="27"/>
